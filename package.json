@@ -13,7 +13,7 @@
   ],
   "main": "generators/index.js",
   "keywords": [
-    "yeoman generator ionic wechat ",
+    "yeoman generator ionic project framework ",
     "yeoman-generator"
   ],
   "dependencies": {
