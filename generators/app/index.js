@@ -50,7 +50,7 @@ module.exports = yeoman.Base.extend({
   _fetchFromGit: function(inCallback) {
     var self = this;
     var done = this.async();
-    this.remote('afeiship', 'ionic-wechat-app', 'master', function(err, remote) {
+    this.remote('smalleast', 'ionic-project-framework', 'master', function(err, remote) {
       self._extCopyTpl(path.join(remote.cachePath, './{**,.*}'), './');
       done(err, self);
     });
